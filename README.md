@@ -8,6 +8,8 @@
 
 <br />
 
+<hr>
+
 <h2 align="center">Programming Languages, Frameworks &amp; Libraries</h2>
 
 <p align="center">
