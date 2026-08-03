@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="Sithum Wickramanayaka — developer profile banner" width="72%" />
+  <img src="./banner.svg?v=3" alt="Sithum Wickramanayaka — animated developer profile banner" width="1200" />
 </p>
 
 <p align="center">
@@ -8,13 +8,16 @@
 
 <br />
 
-<p align="center"><strong>Languages &amp; Frameworks</strong></p>
+<p align="center"><strong>Programming Languages</strong></p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,swift,js,html,css,r,php,react,nodejs,flask,fastapi&theme=dark&perline=12" alt="Java, Python, Swift, JavaScript, HTML, CSS, R, PHP, React, Node.js, Flask, and FastAPI" />
+  <img src="https://skillicons.dev/icons?i=java,python,swift,js,html,css,r,php&theme=dark&perline=8" alt="Java, Python, Swift, JavaScript, HTML, CSS, R, and PHP" />
 </p>
 
+<p align="center"><strong>Frameworks &amp; Libraries</strong></p>
+
 <p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,flask,fastapi&theme=dark&perline=4" alt="React, Node.js, Flask, and FastAPI" />
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
 </p>
 
@@ -31,14 +34,26 @@
   <img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" alt="Prometheus and Grafana" />
 </p>
 
-<p align="center"><strong>Data, Machine Learning &amp; Tools</strong></p>
+<p align="center"><strong>Databases</strong></p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,tensorflow,pytorch,opencv,sklearn,kafka,postman,linux,bash,powershell&theme=dark&perline=12" alt="MySQL, PostgreSQL, MongoDB, TensorFlow, PyTorch, OpenCV, Scikit-learn, Kafka, Postman, Linux, Bash, and PowerShell" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb&theme=dark&perline=3" alt="MySQL, PostgreSQL, and MongoDB" />
+</p>
+
+<p align="center"><strong>Machine Learning &amp; AI</strong></p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&theme=dark&perline=4" alt="TensorFlow, PyTorch, OpenCV, and Scikit-learn" />
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
+</p>
+
+<p align="center"><strong>Other Technologies &amp; Tools</strong></p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=kafka,postman,linux,bash,powershell&theme=dark&perline=5" alt="Apache Kafka, Postman, Linux, Bash, and PowerShell" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
   <img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white" alt="Confluence" />
   <img src="https://img.shields.io/badge/SharePoint-038387?style=for-the-badge&logo=microsoftsharepoint&logoColor=white" alt="SharePoint" />
