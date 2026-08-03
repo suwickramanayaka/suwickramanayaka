@@ -19,13 +19,30 @@
     <filter id="blur">
       <feGaussianBlur stdDeviation="26"/>
     </filter>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blurred"/>
+      <feMerge>
+        <feMergeNode in="blurred"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="roleClip">
+      <rect x="0" y="0" width="760" height="42"/>
+    </clipPath>
   </defs>
 
   <rect width="1200" height="380" rx="28" fill="url(#background)"/>
-  <circle cx="190" cy="80" r="190" fill="url(#glow)" filter="url(#blur)"/>
-  <circle cx="1040" cy="330" r="220" fill="#8b5cf6" opacity="0.1" filter="url(#blur)"/>
+  <circle cx="190" cy="80" r="190" fill="url(#glow)" filter="url(#blur)">
+    <animate attributeName="cx" values="190;330;190" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1040" cy="330" r="220" fill="#8b5cf6" opacity="0.1" filter="url(#blur)">
+    <animate attributeName="cy" values="330;235;330" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.18;0.08" dur="4s" repeatCount="indefinite"/>
+  </circle>
 
   <g fill="none" stroke="#94a3b8" stroke-opacity="0.13">
+    <animateTransform attributeName="transform" type="translate" values="0 0;30 0;0 0" dur="12s" repeatCount="indefinite"/>
     <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200"/>
     <path d="M120 0V380M240 0V380M360 0V380M480 0V380M600 0V380M720 0V380M840 0V380M960 0V380M1080 0V380"/>
   </g>
@@ -33,11 +50,33 @@
   <g transform="translate(94 86)">
     <rect x="0" y="0" width="7" height="208" rx="3.5" fill="url(#accent)"/>
     <text x="42" y="83" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5">Sithum Wickramanayaka</text>
-    <text x="46" y="137" fill="#94a3b8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" letter-spacing="5">SOFTWARE DEVELOPER</text>
-    <text x="46" y="188" fill="url(#accent)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">&lt; ideas into useful software /&gt;</text>
+    <g transform="translate(46 106)" clip-path="url(#roleClip)" fill="#94a3b8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" letter-spacing="4">
+      <text y="31" opacity="1">DEVOPS ENGINEER
+        <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.27;0.32;0.60;0.65;0.95;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      <text y="31" opacity="0">SOFTWARE ENGINEER
+        <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.27;0.32;0.60;0.65;0.95;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+      <text y="31" opacity="0">CLOUD &amp; AUTOMATION
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.27;0.32;0.60;0.65;0.95;1" dur="9s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <text x="46" y="188" fill="url(#accent)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18">&lt; ideas into reliable systems /&gt;
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" repeatCount="indefinite"/>
+    </text>
+    <rect x="365" y="171" width="3" height="22" rx="1.5" fill="#a78bfa">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <g transform="translate(1015 69)" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+  <g transform="translate(1015 69)" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" filter="url(#softGlow)">
+    <animateTransform attributeName="transform" type="translate" values="1015 69;1015 61;1015 69" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" repeatCount="indefinite"/>
     <path d="M-42 42-78 78l36 36M42 42l36 36-36 36M14 20-15 136"/>
   </g>
+
+  <circle cx="1128" cy="42" r="5" fill="#38bdf8">
+    <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="3;7;3" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
 </svg>
