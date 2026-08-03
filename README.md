@@ -8,15 +8,10 @@
 
 <br />
 
-<p align="center"><strong>Programming Languages</strong></p>
+<p align="center"><strong>Programming Languages, Frameworks &amp; Libraries</strong></p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,python,swift,js,html,css,r,php&theme=dark&perline=8" alt="Java, Python, Swift, JavaScript, HTML, CSS, R, and PHP" />
-</p>
-
-<p align="center"><strong>Frameworks &amp; Libraries</strong></p>
-
-<p align="center">
   <img src="https://skillicons.dev/icons?i=react,nodejs,flask,fastapi&theme=dark&perline=4" alt="React, Node.js, Flask, and FastAPI" />
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
 </p>
@@ -30,8 +25,9 @@
 <p align="center"><strong>Monitoring &amp; Observability</strong></p>
 
 <p align="center">
+  <img src="https://skillicons.dev/icons?i=prometheus&theme=dark" alt="Prometheus" />
   <img src="https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white" alt="Datadog" />
-  <img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" alt="Prometheus and Grafana" />
+  <img src="https://skillicons.dev/icons?i=grafana&theme=dark" alt="Grafana" />
 </p>
 
 <p align="center"><strong>Databases</strong></p>
@@ -43,8 +39,9 @@
 <p align="center"><strong>Machine Learning &amp; AI</strong></p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&theme=dark&perline=4" alt="TensorFlow, PyTorch, OpenCV, and Scikit-learn" />
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark&perline=2" alt="TensorFlow and PyTorch" />
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras" />
+  <img src="https://skillicons.dev/icons?i=opencv,sklearn&theme=dark&perline=2" alt="OpenCV and Scikit-learn" />
 </p>
 
 <p align="center"><strong>Other Technologies &amp; Tools</strong></p>
