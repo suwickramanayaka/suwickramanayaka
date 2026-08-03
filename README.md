@@ -8,9 +8,7 @@
 
 <br />
 
-<hr>
 <h2 align="center">Programming Languages, Frameworks &amp; Libraries</h2>
-<hr>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,python,swift,js,html,css,r,php&theme=dark&perline=8" alt="Java, Python, Swift, JavaScript, HTML, CSS, R, and PHP" />
