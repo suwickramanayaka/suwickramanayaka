@@ -49,8 +49,8 @@
 
   <g transform="translate(94 86)">
     <rect x="0" y="0" width="7" height="208" rx="3.5" fill="url(#accent)"/>
-    <text x="42" y="83" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="64" font-weight="750" letter-spacing="-1.8">Sithum Wickramanayaka</text>
-    <g transform="translate(46 108)" clip-path="url(#roleClip)" fill="#a8b5ca" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="500" letter-spacing="4.5">
+    <text x="42" y="83" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="72" font-weight="800" letter-spacing="-2.2">Sithum Wickramanayaka</text>
+    <g transform="translate(46 110)" clip-path="url(#roleClip)" fill="#b2bfd2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="31" font-weight="550" letter-spacing="5">
       <text y="31" opacity="1">DEVOPS ENGINEER
         <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.27;0.32;0.60;0.65;0.95;1" dur="9s" repeatCount="indefinite"/>
       </text>
@@ -61,16 +61,16 @@
         <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.27;0.32;0.60;0.65;0.95;1" dur="9s" repeatCount="indefinite"/>
       </text>
     </g>
-    <text x="46" y="192" fill="url(#accent)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="21" font-weight="500">&lt; ideas into reliable systems /&gt;
+    <text x="46" y="195" fill="url(#accent)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" font-weight="600">&lt; ideas into reliable systems /&gt;
       <animate attributeName="opacity" values="0.55;1;0.55" dur="2.8s" repeatCount="indefinite"/>
     </text>
-    <rect x="418" y="172" width="4" height="25" rx="2" fill="#a78bfa">
+    <rect x="470" y="172" width="4" height="29" rx="2" fill="#a78bfa">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.5;1" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
 
-  <g transform="translate(1015 69)" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" filter="url(#softGlow)">
-    <animateTransform attributeName="transform" type="translate" values="1015 69;1015 61;1015 69" dur="3.2s" repeatCount="indefinite"/>
+  <g transform="translate(1100 69)" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" filter="url(#softGlow)">
+    <animateTransform attributeName="transform" type="translate" values="1100 69;1100 61;1100 69" dur="3.2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.72;1;0.72" dur="3.2s" repeatCount="indefinite"/>
     <path d="M-42 42-78 78l36 36M42 42l36 36-36 36M14 20-15 136"/>
   </g>
